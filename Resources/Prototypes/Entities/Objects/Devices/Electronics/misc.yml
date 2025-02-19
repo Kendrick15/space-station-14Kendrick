@@ -13,3 +13,23 @@
   - type: DoorElectronics
   - type: StaticPrice
     price: 55
+
+
+- type: entity
+  parent: BaseStructureDynamic
+  id: CargoBatterySellable
+  name: battery
+  description: The high-capacity battery being sold. Is electricity really that expensive these days?
+  components:
+  - type: Battery
+    MaxCharge: 10000
+    startingCharge: 0
+  - type: Icon
+    sprite: Structures/Storage/Crates/generic.rsi
+    state: icon
+  - type: Sprite
+    noRot: true
+    sprite: Structures/Storage/Crates/generic.rsi
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]

@@ -1287,3 +1287,39 @@
       Capacitor: 1
       Manipulator: 1
       Cable: 1
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: ChargerMachineCircuitboard
+  name: battery charger machine board
+  components:
+  - type: MachineBoard
+    prototype: BatteryCharger
+    stackRequirments:
+      Steel: 10
+      Glass: 5
+      Cable: 5
+      Uranium: 6
+      Manipulator: 5
+      Capacitor: 4
+      Gold: 10
+      Silver: 10
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: DischargerMachineCircuitboard
+  name: battery discharger machine board
+  components:
+  - type: MachineBoard
+    prototype: SellableBatteryDischarger
+    stackRequirments:
+      Steel: 30
+      Glass: 10
+      Cable: 10
+      CableHV: 10
+      Uranium: 6
+      Manipulator: 5
+      Capacitor: 8
+      Gold: 12
+      Silver: 12
+      Plasma: 20
