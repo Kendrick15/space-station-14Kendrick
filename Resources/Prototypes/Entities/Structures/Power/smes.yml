@@ -152,7 +152,7 @@
       damageContainer: StructuralInorganic
       damageModifierSet: StructuralMetallicStrong
     - type: WiredNetworkConnection
-#    - type: SellableBatteryChargerComponent
+    - type: SellableBatteryChargerComponent
 
 - type: entity
   id: SellableBatteryDischarger
@@ -238,4 +238,4 @@
       sendBroadcastAttemptEvent: true
       examinableAddress: true
     - type: WiredNetworkConnection
-#    - type: SellableBatteryDischargerComponent
+    - type: SellableBatteryDischargerComponent
